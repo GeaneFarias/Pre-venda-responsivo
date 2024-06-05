@@ -156,36 +156,45 @@ footer p{
 footer li img{
     height: 32px;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 768px) {
     .lista-veiculos li {
-        max-width: 100%; /* Adjust max-width for smaller screens */
+        max-width: 100%;
     
 }
+html{
+    overflow-x: hidden;
+}
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+
+    html{
+        overflow-x: hidden;
+    }
+
     header {
-        font-size: 18px; /* Adjust font size for smaller screens */
+        font-size: 1.3em; 
     }
 
     nav li {
-        font-size: 18px; /* Adjust font size for smaller screens */
+        font-size: 1.3em; 
     }
 
     .formcontato label {
-        font-size: 20px; /* Adjust font size for smaller screens */
+        font-size: 1.3em; 
     }
 
     .formcontato input {
-        height: 30px; /* Adjust input height for smaller screens */
+        height: 30px;
     }
 
     footer p {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 1.3em; 
     }
 
     footer li img {
-        height: 28px; /* Adjust image height for smaller screens */
+        height: 28px; 
     }
 }
